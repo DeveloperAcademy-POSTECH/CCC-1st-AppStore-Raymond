@@ -12,3 +12,11 @@
 
 ### branch:
 - feature/#1_앱기능
+
+### commit:
+```
+git commit -m "
+               [type] : title 
+               Resolve : #issue
+                                 "
+```
