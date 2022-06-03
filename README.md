@@ -9,3 +9,6 @@
 - [refactor] : 코드 수정
 - [style] : 스타일 수정
 - [!HOTFIX] : 긴급한 수정 사항
+
+### branch:
+- feature/#1_앱기능
