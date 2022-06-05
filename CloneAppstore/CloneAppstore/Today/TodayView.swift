@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TodayView: View {
+    let name = 1
     var body: some View {
         NavigationView {
             ScrollView {
