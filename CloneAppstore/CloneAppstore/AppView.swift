@@ -9,7 +9,18 @@ import SwiftUI
 
 struct AppView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            List {
+                HStack {
+                    Text("hello")
+                }
+                HStack {
+                    Text("hello")
+                }
+            }
+            .listStyle(PlainListStyle())
+            .navigationTitle("앱")
+        }
     }
 }
 

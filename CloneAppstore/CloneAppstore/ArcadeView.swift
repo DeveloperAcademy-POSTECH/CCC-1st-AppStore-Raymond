@@ -9,7 +9,16 @@ import SwiftUI
 
 struct ArcadeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView {
+                HStack {
+                    Spacer()
+                    CircleImage()
+                        .padding(.horizontal)
+                }
+            }
+            .navigationBarHidden(true)
+        }
     }
 }
 
