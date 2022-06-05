@@ -8,27 +8,31 @@
 import SwiftUI
 
 struct TodayView: View {
-    let name = 1
     var body: some View {
         NavigationView {
             ScrollView {
                 //safe area ignore 되는 문제 발생
                 header
+                SmallCard(title: "이번 주 인기 게임", subTitle: "요즘 화제", cardStyle: .appList)
+                    .padding(.horizontal)
             }
             .navigationBarHidden(true)
+        
         }
     }
     
     var header: some View {
-        VStack(alignment: .leading, spacing: 0) {
+        VStack(alignment: .leading, spacing: 5) {
             Text("날짜")
+                .foregroundColor(.gray)
             HStack {
-                Text("투데이").font(.largeTitle)
+                Text("투데이").font(.largeTitle).fontWeight(.bold)
                 Spacer()
                 CircleImage()
             }
         }
         .padding(.horizontal)
+        .padding(.top, 20)
     }
 }
 

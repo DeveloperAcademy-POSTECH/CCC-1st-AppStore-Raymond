@@ -11,7 +11,7 @@ struct CircleImage: View {
     var body: some View {
         Image("profile_image")
             .resizable()
-            .frame(width: 40, height: 40)
+            .frame(width: 34, height: 34)
             .clipShape(Circle())
             .aspectRatio(contentMode: .fit)
             .overlay(Circle().stroke(Color.gray, lineWidth: 1))

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Application {
+struct Application: Identifiable {
     let id = UUID().uuidString
     let thumbnailName: String
     let category: String

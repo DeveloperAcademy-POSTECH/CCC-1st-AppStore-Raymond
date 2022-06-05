@@ -20,6 +20,8 @@
 		E63518C8284CC3A80008404A /* SmallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63518C7284CC3A80008404A /* SmallCard.swift */; };
 		E63518CA284CC3AE0008404A /* LargeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63518C9284CC3AE0008404A /* LargeCard.swift */; };
 		E63518CD284CC6A50008404A /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63518CC284CC6A50008404A /* Application.swift */; };
+		E63518CF284CD2FA0008404A /* AppListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63518CE284CD2FA0008404A /* AppListView.swift */; };
+		E63518D1284CD3E10008404A /* ThemeShowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63518D0284CD3E10008404A /* ThemeShowingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		E63518C7284CC3A80008404A /* SmallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCard.swift; sourceTree = "<group>"; };
 		E63518C9284CC3AE0008404A /* LargeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeCard.swift; sourceTree = "<group>"; };
 		E63518CC284CC6A50008404A /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		E63518CE284CD2FA0008404A /* AppListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListView.swift; sourceTree = "<group>"; };
+		E63518D0284CD3E10008404A /* ThemeShowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeShowingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				E618BE79284A614100636FFE /* LayoutView.swift */,
 				E63518CB284CC3B80008404A /* Today */,
 				E63518C3284C93E30008404A /* CircleImage.swift */,
+				E63518CE284CD2FA0008404A /* AppListView.swift */,
+				E63518D0284CD3E10008404A /* ThemeShowingView.swift */,
 				E618BE87284A61C800636FFE /* GameView.swift */,
 				E618BE89284A61D000636FFE /* AppView.swift */,
 				E618BE8B284A61D900636FFE /* ArcadeView.swift */,
@@ -180,9 +186,11 @@
 				E618BE86284A61C400636FFE /* TodayView.swift in Sources */,
 				E618BE8C284A61D900636FFE /* ArcadeView.swift in Sources */,
 				E618BE8E284A61DF00636FFE /* SearchView.swift in Sources */,
+				E63518CF284CD2FA0008404A /* AppListView.swift in Sources */,
 				E618BE88284A61C800636FFE /* GameView.swift in Sources */,
 				E618BE8A284A61D000636FFE /* AppView.swift in Sources */,
 				E618BE78284A614100636FFE /* CloneAppstoreApp.swift in Sources */,
+				E63518D1284CD3E10008404A /* ThemeShowingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
