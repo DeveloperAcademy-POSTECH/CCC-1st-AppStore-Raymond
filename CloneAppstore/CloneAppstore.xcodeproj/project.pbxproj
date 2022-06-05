@@ -16,6 +16,7 @@
 		E618BE8A284A61D000636FFE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618BE89284A61D000636FFE /* AppView.swift */; };
 		E618BE8C284A61D900636FFE /* ArcadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618BE8B284A61D900636FFE /* ArcadeView.swift */; };
 		E618BE8E284A61DF00636FFE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618BE8D284A61DF00636FFE /* SearchView.swift */; };
+		E63518C4284C93E30008404A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63518C3284C93E30008404A /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E618BE89284A61D000636FFE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		E618BE8B284A61D900636FFE /* ArcadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeView.swift; sourceTree = "<group>"; };
 		E618BE8D284A61DF00636FFE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		E63518C3284C93E30008404A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				E618BE77284A614100636FFE /* CloneAppstoreApp.swift */,
 				E618BE79284A614100636FFE /* LayoutView.swift */,
 				E618BE85284A61C400636FFE /* TodayView.swift */,
+				E63518C3284C93E30008404A /* CircleImage.swift */,
 				E618BE87284A61C800636FFE /* GameView.swift */,
 				E618BE89284A61D000636FFE /* AppView.swift */,
 				E618BE8B284A61D900636FFE /* ArcadeView.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E618BE7A284A614100636FFE /* LayoutView.swift in Sources */,
+				E63518C4284C93E30008404A /* CircleImage.swift in Sources */,
 				E618BE86284A61C400636FFE /* TodayView.swift in Sources */,
 				E618BE8C284A61D900636FFE /* ArcadeView.swift in Sources */,
 				E618BE8E284A61DF00636FFE /* SearchView.swift in Sources */,
