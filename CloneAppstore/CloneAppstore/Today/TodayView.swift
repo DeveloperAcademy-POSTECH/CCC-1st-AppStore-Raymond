@@ -13,8 +13,9 @@ struct TodayView: View {
             ScrollView {
                 //safe area ignore 되는 문제 발생
                 header
+                LargeCard(title: "DEEMO 2 매력 탐방", subTitle: "추천", summary: nil, imageName: "디모", cardStyle: .directDownload)
                 SmallCard(title: "이번 주 인기 게임", subTitle: "요즘 화제", cardStyle: .appList)
-                    .padding(.horizontal)
+                SmallCard(title: "짜증이라는 것이\n 폭발할 때", subTitle: "추천", cardStyle: .appTheme)
             }
             .navigationBarHidden(true)
         

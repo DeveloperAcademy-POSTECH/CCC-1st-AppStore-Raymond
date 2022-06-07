@@ -22,6 +22,8 @@
 		E63518CD284CC6A50008404A /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63518CC284CC6A50008404A /* Application.swift */; };
 		E63518CF284CD2FA0008404A /* AppListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63518CE284CD2FA0008404A /* AppListView.swift */; };
 		E63518D1284CD3E10008404A /* ThemeShowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63518D0284CD3E10008404A /* ThemeShowingView.swift */; };
+		E688DD4628501211006DE21E /* AppDownloadFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E688DD4528501211006DE21E /* AppDownloadFooter.swift */; };
+		E688DD482850121A006DE21E /* StoryCardFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E688DD472850121A006DE21E /* StoryCardFooter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		E63518CC284CC6A50008404A /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		E63518CE284CD2FA0008404A /* AppListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListView.swift; sourceTree = "<group>"; };
 		E63518D0284CD3E10008404A /* ThemeShowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeShowingView.swift; sourceTree = "<group>"; };
+		E688DD4528501211006DE21E /* AppDownloadFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDownloadFooter.swift; sourceTree = "<group>"; };
+		E688DD472850121A006DE21E /* StoryCardFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCardFooter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				E618BE85284A61C400636FFE /* TodayView.swift */,
 				E63518C7284CC3A80008404A /* SmallCard.swift */,
 				E63518C9284CC3AE0008404A /* LargeCard.swift */,
+				E688DD4528501211006DE21E /* AppDownloadFooter.swift */,
+				E688DD472850121A006DE21E /* StoryCardFooter.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E618BE7A284A614100636FFE /* LayoutView.swift in Sources */,
+				E688DD482850121A006DE21E /* StoryCardFooter.swift in Sources */,
 				E63518C4284C93E30008404A /* CircleImage.swift in Sources */,
 				E63518CD284CC6A50008404A /* Application.swift in Sources */,
 				E63518C8284CC3A80008404A /* SmallCard.swift in Sources */,
@@ -188,6 +195,7 @@
 				E618BE8E284A61DF00636FFE /* SearchView.swift in Sources */,
 				E63518CF284CD2FA0008404A /* AppListView.swift in Sources */,
 				E618BE88284A61C800636FFE /* GameView.swift in Sources */,
+				E688DD4628501211006DE21E /* AppDownloadFooter.swift in Sources */,
 				E618BE8A284A61D000636FFE /* AppView.swift in Sources */,
 				E618BE78284A614100636FFE /* CloneAppstoreApp.swift in Sources */,
 				E63518D1284CD3E10008404A /* ThemeShowingView.swift in Sources */,
